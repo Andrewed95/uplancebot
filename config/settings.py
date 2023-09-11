@@ -9,8 +9,8 @@ BOT_TOKEN = env('BOT_TOKEN')
 ADMINS = env('ADMINS', cast=list, default=(''))
 # logging mode
 DEBUG = env('DEBUG', cast=bool, default=False)
-MIN_UPDATE_PERIOD = env('MIN_UPDATE_PERIOD', cast=int, default=100)
-MAX_FEED_COUNT = env('MAX_FEED_COUNT', cast=int, default=3)
+MIN_UPDATE_PERIOD = env('MIN_UPDATE_PERIOD', cast=int, default=10)
+MAX_FEED_COUNT = env('MAX_FEED_COUNT', cast=int, default=100)
 
 #db settings
 DB_HOST = env('DB_HOST', default='mongo')
