@@ -2,7 +2,7 @@ FROM python:3.7.3-alpine
 ENV DIR /opt/bot/
 ENV DEBUG=False \
   BOT_TOKEN=new_token \
-  MIN_UPDATE_PERIOD=10 \
+  MIN_UPDATE_PERIOD=60 \
   DB_PORT=27017 \
   DB_MAX_POOL_SIZE=300
 
