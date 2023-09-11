@@ -49,7 +49,7 @@ async def fetch_data(url, json=False):
                 if resp.status == 200:
                     return await resp.json(encoding="utf8") if json else await resp.text(encoding="utf8")
                 else:
-                    g.inc()
+                    # g.inc()
                     logging.warn('Fetch data failed. URL: {}, \n'
                                 'Status: {}. {}'.format(url, resp.status, resp.json()))
         except Exception as e:
