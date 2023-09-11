@@ -1,12 +1,22 @@
 aiohttp==3.5.4
+aiosocksy==0.1.2
 aiotg==1.0.0
 argh==0.26.2
 async-timeout==3.0.1
+attrs==23.1.0
+certifi==2023.7.22
+cfscrape @ git+https://github.com/Goodsmileduck/cloudflare-scrape.git@82b21aa5f08e8c24ac7ca310f17fcd0eb9a5c1b7
 chardet==3.0.4
+charset-normalizer==3.2.0
+envparse==0.2.0
 feedparser==5.2.1
-motor==2.0
+idna==3.4
+motor==2.0.0
+multidict==4.7.6
 pathtools==0.1.2
 pymongo==3.8.0
 PyYAML==3.12
-envparse==0.2.0
-git+git://github.com/Goodsmileduck/cloudflare-scrape@master#egg=cfscrape
+requests==2.31.0
+urllib3==2.0.4
+watchdog==3.0.0
+yarl==1.9.2
